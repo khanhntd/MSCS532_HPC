@@ -16,6 +16,6 @@ def stepsTo(stair: int) -> int:
         return stepsTo(stair-1) + stepsTo(stair-2) + stepsTo(stair-3)
 
 if __name__ =="__main__":
-    numberOfSteps = stepsTo(40)
+    numberOfSteps = stepsTo(30)
     print("Number of combination that can reach to step 7 is ", numberOfSteps)
     #print(stepsTo.cache_info())
